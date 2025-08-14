@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LoginSuite">
+    <test name="LoginTest_chrome">
+    <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="automationtetsing.tests.LoginTest"/>
+        </classes>
+    </test>	
+    
+     <test name="LoginTest_firefox">
+    <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="automationtetsing.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
+<!-- Compare this snippet from automationtetsing/src/test/java/automationtetsing/tests/SampleTest.java: -->

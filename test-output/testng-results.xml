@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T19:00:19 IST" name="LoginSuite" finished-at="2025-08-12T19:00:33 IST" duration-ms="14794">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T19:00:19 IST" name="LoginTest_chrome" finished-at="2025-08-12T19:00:26 IST" duration-ms="7390">
+      <class name="automationtetsing.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:automationtetsing.tests.LoginTest@5656be13]" started-at="2025-08-12T19:00:19 IST" name="setUp" finished-at="2025-08-12T19:00:21 IST" duration-ms="2879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5bd73d1a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void automationtetsing.tests.LoginTest.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:automationtetsing.tests.LoginTest@5656be13]" started-at="2025-08-12T19:00:21 IST" name="loginTest" finished-at="2025-08-12T19:00:25 IST" duration-ms="3985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationtetsing.tests.LoginTest@5656be13]" started-at="2025-08-12T19:00:25 IST" name="tearDown" finished-at="2025-08-12T19:00:26 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationtetsing.tests.LoginTest -->
+    </test> <!-- LoginTest_chrome -->
+    <test started-at="2025-08-12T19:00:26 IST" name="LoginTest_firefox" finished-at="2025-08-12T19:00:33 IST" duration-ms="7349">
+      <class name="automationtetsing.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:automationtetsing.tests.LoginTest@24269709]" started-at="2025-08-12T19:00:26 IST" name="setUp" finished-at="2025-08-12T19:00:28 IST" duration-ms="2415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@aec50a1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void automationtetsing.tests.LoginTest.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:automationtetsing.tests.LoginTest@24269709]" started-at="2025-08-12T19:00:28 IST" name="loginTest" finished-at="2025-08-12T19:00:33 IST" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationtetsing.tests.LoginTest@24269709]" started-at="2025-08-12T19:00:33 IST" name="tearDown" finished-at="2025-08-12T19:00:33 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationtetsing.tests.LoginTest -->
+    </test> <!-- LoginTest_firefox -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
